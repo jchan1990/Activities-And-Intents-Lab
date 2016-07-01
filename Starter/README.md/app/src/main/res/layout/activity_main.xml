@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.qube.activitiesandintentsmadlibs.MainActivity">
+
+    <EditText
+        android:id="@+id/et_adj1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Adjective"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_adj2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Adjective"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_noun1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Noun"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_noun2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Noun"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_animals1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Animals(Plural)"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_game1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Game"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textStyle="bold" />
+</LinearLayout>
